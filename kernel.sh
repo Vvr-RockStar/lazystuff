@@ -1,0 +1,1 @@
+export ARCH=arm64 && export CROSS_COMPILE=~/tools/bin/aarch64-linux-android- && export KBUILD_BUILD_USER=Vvr-RockStar && export KBUILD_BUILD_HOST=RockStarTeam && mkdir -p out && make O=out santoni_defconfig && make O=out -j4
